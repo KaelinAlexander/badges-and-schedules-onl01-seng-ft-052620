@@ -3,7 +3,6 @@ require "pry"
 def badge_maker(name)
   puts "Hello, my names is #{name}."
   return "Hello, my name is #{name}."
-  binding.pry
 end
 
 def batch_badge_creator(names)
