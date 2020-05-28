@@ -1,6 +1,6 @@
 require "pry"
 
-def badge_maker
+def badge_maker(name)
   name="Arel"
   puts "Hello, my names is #{name}."
   return "Hello, my name is #{name}."
