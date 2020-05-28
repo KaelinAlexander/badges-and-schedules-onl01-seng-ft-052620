@@ -3,6 +3,7 @@ require "pry"
 attendees=["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 def badge_maker(name)
+  badge_messages = []
   puts "Hello, my names is #{name}."
   return "Hello, my name is #{name}."
 end
