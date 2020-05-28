@@ -5,6 +5,7 @@ attendees=["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 def badge_maker(name)
   badge_messages = []
   message="Hello, my names is #{name}."
+  badge_message << message
   return "Hello, my name is #{name}."
 end
 
