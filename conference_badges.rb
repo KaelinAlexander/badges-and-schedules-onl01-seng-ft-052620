@@ -26,6 +26,7 @@ def assign_rooms(names)
 end
 
 def printer(names)
+  
   badge_messages.each do |printout|
     puts printout
   end
