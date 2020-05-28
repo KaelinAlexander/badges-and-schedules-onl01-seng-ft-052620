@@ -1,5 +1,7 @@
 require "pry"
 
+attendees=[""]
+
 def badge_maker(name)
   puts "Hello, my names is #{name}."
   return "Hello, my name is #{name}."
@@ -9,7 +11,7 @@ def batch_badge_creator(attendees)
   attendees.each do |name|
   puts "Hello, my name is #{name}."
   return "Hello, my name is #{name}."
-  end 
+  end
 end
 
 def assign_rooms(attendees)
