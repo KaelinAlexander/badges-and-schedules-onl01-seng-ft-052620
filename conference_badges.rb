@@ -7,7 +7,7 @@ def batch_badge_creator(names)
 end
 
 def assign_rooms(names)
-  names.each do|name, idx|
+  names.each_with_index do|name, idx|
   puts "Hello, #{name}! You'll be in room #{idx+1}."
   end 
 end
