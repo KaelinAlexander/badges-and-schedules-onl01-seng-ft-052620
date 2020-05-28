@@ -26,7 +26,3 @@ def printer(names)
 end
 
 speakers=["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-
-batch_badge_creator(speakers)
-assign_rooms(speakers)
-printer(speakers)
