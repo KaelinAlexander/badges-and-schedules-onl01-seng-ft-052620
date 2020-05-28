@@ -17,7 +17,7 @@ end
 def assign_rooms(names)
   assignment_messages=[]
   names.each_with_index do|name, idx|
-  assignment="Hello, #{name}! You'll be in room #{idx+1}."
+  assignment="Hello, #{name}! You'll be assigned to room #{idx+1}!"
   assignment_messages << assignment
   end
   return assignment_messages
