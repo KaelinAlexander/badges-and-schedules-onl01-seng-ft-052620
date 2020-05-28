@@ -1,7 +1,8 @@
 require "pry"
 
-def batch_badge_creator
-puts "Hello, #{name}! You'll be assigned to room #{[]}!"
+def batch_badge_creator(names)
+  names.each
+puts "Hello, #{name}! You'll be assigned to room #{[]+1}!"
 end
 
 names={Edsger, Ada, Charles, Alan, Grace, Linus, Matz}
