@@ -1,7 +1,7 @@
 require "pry"
 
 def badge_maker(name)
-  name="Arel"
+  name=gets.chomp
   puts "Hello, my names is #{name}."
 end
 
