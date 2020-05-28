@@ -1,13 +1,13 @@
 require "pry"
 
-def badge_maker
+def badge_maker(name)
   name=gets.chomp
   puts "Hello, my names is #{name}."
   puts 
   end 
 end
 
-def batch_badge_creator(names)
+def batch_badge_creator(attendees)
   names.each do|name|
   puts name
   end 
@@ -24,5 +24,3 @@ def printer(names)
   batch_badge_creator(names)
   assign_rooms(names)
 end
-
-speakers=["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
