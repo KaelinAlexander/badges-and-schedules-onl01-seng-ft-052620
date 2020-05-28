@@ -1,7 +1,7 @@
 require "pry"
 
-def badge_maker(names)
-  names.each do|name|
+def badge_maker
+  puts "Hello, my names is #{gets.chomp}."
   name
   end 
 end
