@@ -1,10 +1,8 @@
 require "pry"
 
 def badge_maker(name)
-  name=gets.chomp
+  name="Arel"
   puts "Hello, my names is #{name}."
-  puts 
-  end 
 end
 
 def batch_badge_creator(names)
