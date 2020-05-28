@@ -22,3 +22,8 @@ def assign_rooms(names)
   end
   return assignment_messages
 end
+
+def printer(names)
+  puts badge_messages
+  puts assignment_messages
+end
