@@ -24,6 +24,10 @@ def assign_rooms(names)
 end
 
 def printer(names)
-  puts badge_messages
-  puts assignment_messages
+  badge_messages.each do |printout|
+    puts printout
+  end
+  assignment_messages.each do |printout|
+    puts printout
+  end
 end
