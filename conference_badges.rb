@@ -30,6 +30,7 @@ def printer(names)
   badge_messages.each do |printout|
     puts printout
   end
+  assignment_messages
   assignment_messages.each do |printout|
     puts printout
   end
