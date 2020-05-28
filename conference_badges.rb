@@ -14,9 +14,11 @@ def batch_badge_creator(names)
   return badge_messages
 end
 
-def assign_rooms(attendees)
-  attendees.each_with_index do|name, idx|
-  puts "Hello, #{name}! You'll be in room #{idx+1}."
-  "Hello, #{name}! You'll be in room #{idx+1}."
-  end 
+def assign_rooms(names)
+  assignment_messages=[]
+  names.each_with_index do|name, idx|
+  assignment="Hello, #{name}! You'll be in room #{idx+1}."
+  assignment_messages << assignment
+  end
+  return assignment_messages
 end
