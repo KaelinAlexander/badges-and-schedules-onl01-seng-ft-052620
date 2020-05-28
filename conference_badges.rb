@@ -8,4 +8,4 @@ end
 
 speakers=["Edsger," "Ada," "Charles," "Alan," "Grace," "Linus," "Matz"]
 
-batch_badge_create(speakers)
+batch_badge_creator(speakers)
