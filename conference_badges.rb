@@ -1,19 +1,17 @@
 require "pry"
 
-attendees=["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-
 def badge_maker(name)
-  badge_messages = []
-  message="Hello, my names is #{name}."
-  badge_message << message
+  puts "Hello, my names is #{name}."
   return "Hello, my name is #{name}."
 end
 
 def batch_badge_creator(names)
+  badge_messages=[]
   names.each do |name|
-  puts "Hello, my name is #{name}."
-  
+  message="Hello, my name is #{name}."
+  badge_messages << message
   end
+  return badge_messages
 end
 
 def assign_rooms(attendees)
