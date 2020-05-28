@@ -14,6 +14,10 @@ def batch_badge_creator(names)
   return badge_messages
 end
 
+badge_messages_to_print=badge_messages
+
+binding.pry
+
 def assign_rooms(names)
   assignment_messages=[]
   names.each_with_index do|name, idx|
