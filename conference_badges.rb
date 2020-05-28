@@ -1,7 +1,7 @@
 require "pry"
 
 def batch_badge_creator(names)
-  names.each
+  names.each do|name|
 puts "Hello, #{name}! You'll be assigned to room #{[]+1}!"
 end
 
