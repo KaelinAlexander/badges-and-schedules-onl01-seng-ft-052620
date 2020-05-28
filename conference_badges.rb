@@ -18,8 +18,3 @@ def assign_rooms(attendees)
   "Hello, #{name}! You'll be in room #{idx+1}."
   end 
 end
-
-def printer(names)
-  batch_badge_creator(names)
-  assign_rooms(names)
-end
